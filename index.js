@@ -6,7 +6,7 @@ var started = false;
 var ind = 0;
 
 
-
+$(document).on("click", nextSequence);
 $(document).on("keydown", nextSequence);
 
 
